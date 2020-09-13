@@ -1,139 +1,16 @@
 #logo{
 	height: 25px;
-	padding-right: 1rem;
-}
-
-#title-container{
-	font-family: 'Alfa Slab One', cursive;
-}
-
-#banner{
-	height: 60vh;
+  padding-right: 1rem;
 }
 
 .navbar{
 	padding: .5rem 20vh !important;
 }
-.carousel-inner > .carousel-item > img {
-	object-fit:cover;
-  	height: 60vh !important;
-  	width: 350px;
-}
-
-#news-feed .row .col-sm {
-  position: relative;
-  padding: 0;
-}
-
-#news-feed .row .col-sm p {
-  position: absolute;
-  top: 9rem;
-  left: 0;
-  background-color: black;
-  width: 100%;
-  padding-top: 0.5rem;
-  padding-bottom: 4rem;
-  opacity: 0.5;
-}
-#news-feed .row .col-sm h6 {
-  color: white;
-  position: absolute;
-  top: 9.5rem;
-  z-index: 1;
-}
-#news-feed .row .col-sm small {
-  position: absolute;
-  right: 1.5rem;
-  bottom: 0.5rem;
-  z-index: 1;
-}
-#news-feed .row .col-sm small a {
-  color: #E51937;
-  text-decoration: none;
-}
-
-#news-feed .row #nf-1 {
-  background-size: 100%;
-  overflow: hidden;
-
-}
-
-#news-feed .row #nf-1 .inner-div {
-  height: 210px;
-  width: 100%;
-  background-image: url('/images/Sample_news_1.jpg');
-  background-size: 100%;
-  background-position: center;
-  transition: all 1s ease;
-}
-
-#news-feed .row #nf-1 .inner-div:hover {
-  transform: scale(1.2);
-}
-
-#news-feed .row #nf-2 {
-  background-size: 100%;
-  overflow: hidden;
-
-}
-
-#news-feed .row #nf-2 .inner-div {
-  height: 210px;
-  width: 100%;
-  background-image: url('/images/Sample_news_2.png');
-  background-size: 100%;
-  background-position: center;
-  transition: all 1s ease;
-}
-
-#news-feed .row #nf-2 .inner-div:hover {
-  transform: scale(1.2);
-}
-
-#news-feed .row #nf-3 {
-  background-size: 100%;
-  overflow: hidden;
-
-}
-
-#news-feed .row #nf-3 .inner-div {
-  height: 210px;
-  width: 100%;
-  background-image: url('/images/Sample_news_3.jpg');
-  background-size: 100%;
-  background-position: center;
-  transition: all 1s ease;
-}
-
-#news-feed .row #nf-3 .inner-div:hover {
-  transform: scale(1.2);
-}
-
-#content-1{
-	height: 30vh;
-	background-image: url('/images/content-1.jpg');
-	background-repeat: no-repeat;
-  	background-size: cover;
-	background-position: center;
-	color: white;
-	
-}
-
-#content-1 h1{
-	font-family: 'Alfa Slab One', cursive;
-	margin-top: 20vh;
-	text-shadow: -2px -2px 0 #dc3545, 2px -2px 0 #dc3545, -2px 2px 0 #dc3545, 2px 2px 0 #dc3545;
-}
-
-#content-1 button{
-	margin-top: 10vh;
-	border: 2px solid white;
-}
 
 #footer{
-	height: 5vh;
-	color: white;
-	background-color: #323232;
+  height: 5vh;
+  color: white;
+  background-color: #323232;
 }
 
 /* large devices */
