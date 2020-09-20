@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SendEmailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +18,10 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/contact', function () {
-    return view('contact');
+Route::get('/matches', function () {
+    return view('matches');
 });
+
+Route::get('/contact', [SendEmailController::class,'index']);
+
+Route::post('/send-mail', [SendEmailController::class,'send']);

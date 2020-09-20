@@ -109,6 +109,12 @@
         transform: scale(1.2);
         }
 
+        #footer{
+            height: 5vh;
+            color: white;
+            background-color: #323232;
+        }
+
     </style>
 @endsection
 
@@ -121,7 +127,7 @@
         <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a href="/" class="nav-link active"><u>Home</u></a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Matches</a></li>
+                <li class="nav-item"><a href="/matches" class="nav-link">Matches</a></li>
                 <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
@@ -212,13 +218,24 @@
             </div>
         </div>
 
-        <div class="row mt-4">
+        <div class="row mt-4 mb-5">
             <div class="col-sm text-center">
                 <button type="button" class="btn btn-outline-danger mx-auto"><h3>View More</h3></button>    		
             </div>
         </div>
     </div>
 
-    <hr />
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm mt-2">
+                    <small>Copyright 2019. BudFoxPhilippines.gg / All Rights Reserved.</small>
+                </div>
+                <div class="col-sm mt-2 text-right">
+                    <small>Powered by: Creogram</small>
+                </div>
+            </div>
+        </div>
+    </div>
     
 @endsection

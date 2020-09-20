@@ -95,6 +95,10 @@
             background-color: #485461;
         }
 
+        .success-message{
+            color: white;
+        }
+
         #email-form input{
             padding: 0px;
             background-color: #485461;
@@ -162,7 +166,7 @@
             position: absolute;
         }
 
-        #email-form button{
+        #email-form form button{
             height: 6rem;
             border-radius: 5rem;
             border: 1px solid white;
@@ -173,21 +177,19 @@
         #email-form button:hover {
             transform: scale(1.1);
         }
-
-
     </style>
 @endsection
 
 @section('nav')
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a href="#" class="navbar-brand"><img src="images/sample_fox_icon.png" id="logo">BudFox</a>
+        <a href="#" class="navbar-brand"><img src="images/real_logo.jpg" id="logo">BudFox</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Matches</a></li>
+                <li class="nav-item"><a href="/matches" class="nav-link">Matches</a></li>
                 <li class="nav-item"><a href="/contact" class="nav-link active"><u>Contact</u></a></li>
             </ul>
         </div>
@@ -206,7 +208,7 @@
     </div>
 
     <div class="container mb-4" id="contact-us">
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-lg-4 p-5" id="reach-us">
                 <h3 id="title-container" class="pb-3">Reach us at:</h3>
 
@@ -222,37 +224,55 @@
             </div>
 
             <div class="col-lg-8 p-5" id="email-form">
+                @if(count($errors) > 0)
+                    <div class="alert alert-danger">
+                        <button type="button" class="close" data-dismiss="alert">x</button>
 
-                <label class="font-weight-bold">Name </label>
-                <br />
-                <input type="text" name="full_name" class="form-control" placeholder="Name">
+                        <ul>
+                            @foreach($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
 
-                <label class="font-weight-bold">Email </label>
-                <br />
-                <input type="email" name="email" class="form-control" placeholder="Email">
+                @if($message = Session::get('success'))
+                    <div class="alert alert-success">
+                        <button type="button" class="close" data-dismiss="alert">x</button>
 
-                <label class="font-weight-bold">Subject </label>
-                <br />
-                <input type="text" name="email" class="form-control" placeholder="Write a reason for contacting us">
+                        <strong id="success-message">{{ $message }}</strong>
+                    </div>
+                @endif
 
-                <label class="font-weight-bold">Message </label>
-                <br />
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Write a Message..."></textarea>
-                <div id="button-container">
-                    <div><button type="button" class="btn btn-success mx-auto mt-3">Send Now</button></div>
-                </div>
+                <form method="post" action="{{ url('send-mail') }}">
+
+                    {{ csrf_field() }}
+
+                    <label class="font-weight-bold">Name </label>
+                    <br />
+                    <input type="text" name="full_name" class="form-control" placeholder="Name">
+
+                    <label class="font-weight-bold">Email </label>
+                    <br />
+                    <input type="email" name="email" class="form-control" placeholder="Email">
+
+                    <label class="font-weight-bold">Subject </label>
+                    <br />
+                    <input type="text" name="subject" class="form-control" placeholder="Write a reason for contacting us">
+
+                    <label class="font-weight-bold">Message </label>
+                    <br />
+                    <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Write a Message..."></textarea>
+                    
+                    <div id="button-container">
+                        <div><button type="submit" class="btn btn-success mx-auto mt-3">Send Now</button></div>
+                    </div>
+
+                </form>
+
+                
                 
             </div>
         </div>
     </div>
-
-    <script>
-        $(document).ready(function(){
-            $(".twitter-link").hover(function(){
-                $(".twitter-link").css("color", "yellow");
-                }
-            });
-        });
-    </script>
-
 @endsection
