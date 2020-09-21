@@ -22,6 +22,14 @@ Route::get('/matches', function () {
     return view('matches');
 });
 
+Route::get('/tournament/1', function () {
+    return view('matchlist.battle_of_the_champions_tournament');
+});
+
+Route::get('/tournament/2', function () {
+    return view('matchlist.budfox_tournament_2');
+});
+
 Route::get('/contact', [SendEmailController::class,'index']);
 
 Route::post('/send-mail', [SendEmailController::class,'send']);
