@@ -378,48 +378,46 @@
                                 <tr>
                                     <th scope="row">1</th>
                                     <td>DALUZA</td>
-                                    <td>2 - 0</td>
+                                    <td>3 - 0</td>
                                 </tr>     
                                 <tr>
                                     <th scope="row">2</th>
-                                    <td>VICINITY</td>
-                                    <td>1 - 0</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">3</th>
                                     <td>KAIROS</td>
                                     <td>1 - 0</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">4</th>
+                                    <th scope="row">3</th>
                                     <td>SSPH</td>
                                     <td>1 - 0</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">5</th>
+                                    <th scope="row">4</th>
                                     <td>BLKPNK</td>
                                     <td>1 - 0</td>
                                 </tr>
-                                
-                                
                                 <tr>
-                                    <th scope="row">6</th>
+                                    <th scope="row">5</th>
                                     <td>NEXTGEN</td>
                                     <td>1 - 0</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">7</th>
+                                    <th scope="row">6</th>
                                     <td>AVENTUS</td>
                                     <td>1 - 0</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">8</th>
+                                    <th scope="row">7</th>
                                     <td>SIGRA SOLID</td>
                                     <td>1 - 0</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">9</th>
+                                    <th scope="row">8</th>
                                     <td>GREEVILS<br />CREED</td>
+                                    <td>1 - 1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">9</th>
+                                    <td>VICINITY</td>
                                     <td>1 - 1</td>
                                 </tr>
                                 <tr>
@@ -444,7 +442,7 @@
                                     <td class="null-bracket"></td>
                                     <td class="victory">1 - 0</td>
                                     <td class="victory">1 - 0</td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -480,7 +478,7 @@
                                 </tr>
                                 <tr>
                                     <td>VICINITY</td>
-                                    <td></td>
+                                    <td class="defeat">0 - 1</td>
                                     <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td class="null-bracket"></td>
@@ -605,7 +603,7 @@
                                 <tr>
                                     <th class="text-success" scope="row">1</th>
                                     <td class="text-success">MOB<br />ESPORTS</td>
-                                    <td class="text-success">1 - 0</td>
+                                    <td class="text-success">2 - 0</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">2</th>
@@ -651,7 +649,7 @@
                                 <tr>
                                     <th scope="row">10</th>
                                     <td>BFM<br />KITSUNE</td>
-                                    <td>0 - 1</td>
+                                    <td>0 - 2</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -682,7 +680,7 @@
                                     <td>MOB<br />ESPORTS</td>
                                     <td class="victory">1 - 0</td>
                                     <td class="null-bracket"></td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -694,7 +692,7 @@
                                 <tr>
                                     <td>BFM<br />KITSUNE</td>
                                     <td class="defeat">0 - 1</td>
-                                    <td></td>
+                                    <td class="defeat">0 - 1</td>
                                     <td class="null-bracket"></td>
                                     <td></td>
                                     <td></td>
@@ -835,7 +833,7 @@
                     <div class="tournament-2"></div>
 
                     <div id="line"></div>
-                    <h3 id="champ-title"><img src="images/champion.jpg" alt=""></h3>
+                    <h3 id="champ-title"><img src="\images/champion.jpg" alt=""></h3>
                     <div id="champion">
                         <h5></h5>
                     </div>
