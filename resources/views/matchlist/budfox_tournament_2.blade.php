@@ -376,49 +376,49 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <th scope="row">1</th>
+                                    <th class="text-success" scope="row">1</th>
+                                    <td class="text-success">KAIROS</td>
+                                    <td class="text-success">3 - 0</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
                                     <td>DALUZA</td>
                                     <td>3 - 1</td>
                                 </tr>     
                                 <tr>
-                                    <th scope="row">2</th>
-                                    <td>KAIROS</td>
+                                    <th scope="row">3</th>
+                                    <td>SSPH</td>
                                     <td>2 - 0</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">3</th>
+                                    <th scope="row">4</th>
+                                    <td>BLKPNK</td>
+                                    <td>2 - 0</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td>NEXTGEN</td>
+                                    <td>2 - 0</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6</th>
+                                    <td>AVENTUS</td>
+                                    <td>2 - 0</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">7</th>
+                                    <td>SIGRA SOLID</td>
+                                    <td>2 - 0</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">8</th>
                                     <td>GREEVILS<br />CREED</td>
                                     <td>2 - 1</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">4</th>
-                                    <td>SSPH</td>
-                                    <td>1 - 0</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">5</th>
-                                    <td>BLKPNK</td>
-                                    <td>1 - 0</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">6</th>
-                                    <td>NEXTGEN</td>
-                                    <td>1 - 0</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">7</th>
-                                    <td>AVENTUS</td>
-                                    <td>1 - 0</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">8</th>
-                                    <td>SIGRA SOLID</td>
-                                    <td>1 - 0</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">9</th>
-                                    <td>VICINITY</td>
-                                    <td>1 - 2</td>
+                                    <th class="text-danger" scope="row">9</th>
+                                    <td class="text-danger">VICINITY</td>
+                                    <td class="text-danger">1 - 8</td>
                                 </tr>
                                 <tr>
                                     <th class="text-danger" scope="row">10</th>
@@ -482,19 +482,19 @@
                                     <td class="victory">1 - 0</td>
                                     <td class="defeat">0 - 1</td>
                                     <td class="null-bracket"></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td class="defeat">0 - 1</td>
+                                    <td class="defeat">0 - 1</td>
+                                    <td class="defeat">0 - 1</td>
+                                    <td class="defeat">0 - 1</td>
+                                    <td class="defeat">0 - 1</td>
+                                    <td class="defeat">0 - 1</td>
                                 </tr>
                                 <tr>
                                     <td>KAIROS</td>
                                     <td class="victory">1 - 0</td>
                                     <td class="victory">1 - 0</td>
                                     <td></td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td class="null-bracket"></td>
                                     <td></td>
                                     <td></td>
@@ -507,7 +507,7 @@
                                     <td></td>
                                     <td class="victory">1 - 0</td>
                                     <td></td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td class="null-bracket"></td>
                                     <td></td>
@@ -520,7 +520,7 @@
                                     <td></td>
                                     <td class="victory">1 - 0</td>
                                     <td></td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td></td>
                                     <td class="null-bracket"></td>
@@ -533,7 +533,7 @@
                                     <td></td>
                                     <td class="victory">1 - 0</td>
                                     <td></td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -546,7 +546,7 @@
                                     <td></td>
                                     <td class="victory">1 - 0</td>
                                     <td></td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -559,7 +559,7 @@
                                     <td></td>
                                     <td class="victory">1 - 0</td>
                                     <td></td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -602,55 +602,55 @@
                             <tbody>
                                 <tr>
                                     <th class="text-success" scope="row">1</th>
-                                    <td class="text-success">DIVINE<br />GREEKS</td>
-                                    <td class="text-success">2 - 0</td>
+                                    <td class="text-success">DIVINE<br />GEEKS</td>
+                                    <td class="text-success">3 - 0</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">2</th>
                                     <td>MOB<br />ESPORTS</td>
-                                    <td>2 - 1</td>
+                                    <td>3 - 1</td>
                                 </tr>
                                 
                                 <tr>
                                     <th scope="row">3</th>
                                     <td>AD<br />MELIORA</td>
-                                    <td>1 - 2</td>
+                                    <td>2 - 2</td>
                                 </tr>            
                                 
                                 <tr>
                                     <th scope="row">4</th>
                                     <td>RN</td>
-                                    <td>0 - 0</td>
+                                    <td>1 - 0</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">5</th>
-                                    <td>OM</td>
-                                    <td>0 - 0</td>
+                                    <td>LOBRIN</td>
+                                    <td>1 - 0</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">6</th>
-                                    <td>LOBRIN</td>
-                                    <td>0 - 0</td>
+                                    <td>DBES</td>
+                                    <td>1 - 0</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">7</th>
-                                    <td>DBES</td>
-                                    <td>0 - 0</td>
+                                    <td>PALOMERS</td>
+                                    <td>1 - 0</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">8</th>
-                                    <td>PALOMERS</td>
-                                    <td>0 - 0</td>
+                                    <td>INFINITE SPORTS</td>
+                                    <td>1 - 0</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">9</th>
-                                    <td>INFINITE SPORTS</td>
-                                    <td>0 - 0</td>
+                                    <td>BFM<br />KITSUNE</td>
+                                    <td>1 - 2</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">10</th>
-                                    <td>BFM<br />KITSUNE</td>
-                                    <td>0 - 2</td>
+                                    <th class="text-danger" scope="row">10</th>
+                                    <td class="text-danger">OM</td>
+                                    <td class="text-danger">0 - 9</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -671,7 +671,7 @@
                                     <td class="victory">1 - 0</td>
                                     <td class="defeat">0 - 1</td>
                                     <td></td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -684,7 +684,7 @@
                                     <td class="victory">1 - 0</td>
                                     <td class="defeat">0 - 1</td>
                                     <td></td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -697,7 +697,7 @@
                                     <td class="null-bracket"></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -710,7 +710,7 @@
                                     <td></td>
                                     <td class="null-bracket"></td>
                                     <td></td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -723,7 +723,7 @@
                                     <td></td>
                                     <td></td>
                                     <td class="null-bracket"></td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -731,16 +731,16 @@
                                 </tr>
                                 <tr>
                                     <td>OM</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td class="defeat">0 - 1</td>
+                                    <td class="defeat">0 - 1</td>
+                                    <td class="defeat">0 - 1</td>
+                                    <td class="defeat">0 - 1</td>
+                                    <td class="defeat">0 - 1</td>
                                     <td class="null-bracket"></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td class="defeat">0 - 1</td>
+                                    <td class="defeat">0 - 1</td>
+                                    <td class="defeat">0 - 1</td>
+                                    <td class="defeat">0 - 1</td>
                                 </tr>
                                 <tr>
                                     <td>LOBRIN</td>
@@ -749,7 +749,7 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td class="null-bracket"></td>
                                     <td></td>
                                     <td></td>
@@ -762,7 +762,7 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td class="null-bracket"></td>
                                     <td></td>
@@ -775,7 +775,7 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td></td>
                                     <td class="null-bracket"></td>
@@ -788,7 +788,7 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -852,7 +852,7 @@
                 <h1 id="title-2"> Matches Schedule</h1>
             </div>
 
-            <div class="col-lg-12" class="schedule-container">
+            <div class="col-lg-12 schedule-container">
                 <table class="table table-dark">
                     <thead>
                         <tr>
@@ -960,7 +960,7 @@
                 </table>
             </div>
 
-            <div class="col-lg-12" class="schedule-container">
+            <div class="col-lg-12 schedule-container">
                 <table class="table table-dark">
                     <thead>
                         <tr>
