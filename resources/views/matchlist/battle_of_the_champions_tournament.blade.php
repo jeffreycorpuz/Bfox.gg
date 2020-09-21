@@ -591,7 +591,7 @@
                     <div class="tournament-2"></div>
 
                     <div id="line"></div>
-                    <h3 id="champ-title"><img src="images/champion.jpg" alt=""></h3>
+                    <h3 id="champ-title"><img src="\images/champion.jpg" alt=""></h3>
                     <div id="champion">
                         <h5>DALUZA</h5>
                     </div>

@@ -365,7 +365,7 @@
                 <h1 id="title-2"> Group A</h1>
             </div>
 
-            <div class="col-lg-12">
+            <div class="col-lg-12 mb-4">
                 <div class="row">
                     <div class="col-lg-4">
                         <table class="table table-dark">
@@ -378,47 +378,47 @@
                                 <tr>
                                     <th scope="row">1</th>
                                     <td>DALUZA</td>
-                                    <td>3 - 0</td>
+                                    <td>3 - 1</td>
                                 </tr>     
                                 <tr>
                                     <th scope="row">2</th>
                                     <td>KAIROS</td>
-                                    <td>1 - 0</td>
+                                    <td>2 - 0</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">3</th>
+                                    <td>GREEVILS<br />CREED</td>
+                                    <td>2 - 1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
                                     <td>SSPH</td>
                                     <td>1 - 0</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">4</th>
+                                    <th scope="row">5</th>
                                     <td>BLKPNK</td>
                                     <td>1 - 0</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">5</th>
+                                    <th scope="row">6</th>
                                     <td>NEXTGEN</td>
                                     <td>1 - 0</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">6</th>
+                                    <th scope="row">7</th>
                                     <td>AVENTUS</td>
                                     <td>1 - 0</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">7</th>
+                                    <th scope="row">8</th>
                                     <td>SIGRA SOLID</td>
                                     <td>1 - 0</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">8</th>
-                                    <td>GREEVILS<br />CREED</td>
-                                    <td>1 - 1</td>
-                                </tr>
-                                <tr>
                                     <th scope="row">9</th>
                                     <td>VICINITY</td>
-                                    <td>1 - 1</td>
+                                    <td>1 - 2</td>
                                 </tr>
                                 <tr>
                                     <th class="text-danger" scope="row">10</th>
@@ -443,7 +443,7 @@
                                     <td class="victory">1 - 0</td>
                                     <td class="victory">1 - 0</td>
                                     <td class="victory">1 - 0</td>
-                                    <td></td>
+                                    <td class="defeat">0 - 1</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -468,7 +468,7 @@
                                     <td class="defeat">0 - 1</td>
                                     <td class="victory">1 - 0</td>
                                     <td class="null-bracket"></td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -480,7 +480,7 @@
                                     <td>VICINITY</td>
                                     <td class="defeat">0 - 1</td>
                                     <td class="victory">1 - 0</td>
-                                    <td></td>
+                                    <td class="defeat">0 - 1</td>
                                     <td class="null-bracket"></td>
                                     <td></td>
                                     <td></td>
@@ -491,7 +491,7 @@
                                 </tr>
                                 <tr>
                                     <td>KAIROS</td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td></td>
@@ -602,14 +602,15 @@
                             <tbody>
                                 <tr>
                                     <th class="text-success" scope="row">1</th>
-                                    <td class="text-success">MOB<br />ESPORTS</td>
+                                    <td class="text-success">DIVINE<br />GREEKS</td>
                                     <td class="text-success">2 - 0</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">2</th>
-                                    <td>DIVINE<br />GREEKS</td>
-                                    <td>1 - 0</td>
+                                    <td>MOB<br />ESPORTS</td>
+                                    <td>2 - 1</td>
                                 </tr>
+                                
                                 <tr>
                                     <th scope="row">3</th>
                                     <td>AD<br />MELIORA</td>
@@ -681,7 +682,7 @@
                                     <td class="victory">1 - 0</td>
                                     <td class="null-bracket"></td>
                                     <td class="victory">1 - 0</td>
-                                    <td></td>
+                                    <td class="defeat">0 - 1</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -705,7 +706,7 @@
                                 <tr>
                                     <td>DIVINE<br />GEEKS</td>
                                     <td class="victory">1 - 0</td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td class="null-bracket"></td>
                                     <td></td>
