@@ -142,6 +142,19 @@
             justify-content: center;
         }
 
+        .hr-line{
+            border: 1px solid white ;
+        }
+
+        .game-span{
+            color: #f0a500;
+        }
+
+        .schedule-container{
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+
         @media (max-width: 2240.98px) {
             #line{
                 left: 37%;
@@ -365,50 +378,49 @@
                                 <tr>
                                     <th scope="row">1</th>
                                     <td>DALUZA</td>
-                                    <td>1 - 0</td>
-                                </tr>
+                                    <td>2 - 0</td>
+                                </tr>     
                                 <tr>
                                     <th scope="row">2</th>
-                                    <td>GREEVILS<br />CREED</td>
-                                    <td>1 - 0</td>
-                                </tr>
-                                
-                                <tr>
-                                    <th scope="row">3</th>
                                     <td>VICINITY</td>
                                     <td>1 - 0</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">4</th>
+                                    <th scope="row">3</th>
                                     <td>KAIROS</td>
                                     <td>1 - 0</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">5</th>
+                                    <th scope="row">4</th>
                                     <td>SSPH</td>
                                     <td>1 - 0</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">6</th>
+                                    <th scope="row">5</th>
                                     <td>BLKPNK</td>
                                     <td>1 - 0</td>
                                 </tr>
                                 
                                 
                                 <tr>
-                                    <th scope="row">7</th>
+                                    <th scope="row">6</th>
                                     <td>NEXTGEN</td>
                                     <td>1 - 0</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">8</th>
+                                    <th scope="row">7</th>
                                     <td>AVENTUS</td>
                                     <td>1 - 0</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">9</th>
+                                    <th scope="row">8</th>
                                     <td>SIGRA SOLID</td>
                                     <td>1 - 0</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">9</th>
+                                    <td>GREEVILS<br />CREED</td>
+                                    <td>1 - 1</td>
                                 </tr>
                                 <tr>
                                     <th class="text-danger" scope="row">10</th>
@@ -431,7 +443,7 @@
                                     <td>DALUZA</td>
                                     <td class="null-bracket"></td>
                                     <td class="victory">1 - 0</td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -455,7 +467,7 @@
                                 </tr>
                                 <tr>
                                     <td>GREEVILS<br />CREED</td>
-                                    <td></td>
+                                    <td class="defeat">0 - 1</td>
                                     <td class="victory">1 - 0</td>
                                     <td class="null-bracket"></td>
                                     <td></td>
@@ -597,52 +609,49 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">2</th>
-                                    <td>AD<br />MELIORA</td>
-                                    <td>0 - 1</td>
+                                    <td>DIVINE<br />GREEKS</td>
+                                    <td>1 - 0</td>
                                 </tr>
-                                
                                 <tr>
                                     <th scope="row">3</th>
-                                    <td>BFM<br />KITSUNE</td>
-                                    <td>0 - 0</td>
-                                </tr>
+                                    <td>AD<br />MELIORA</td>
+                                    <td>1 - 2</td>
+                                </tr>            
                                 
                                 <tr>
                                     <th scope="row">4</th>
-                                    <td>DIVINE<br />GREEKS</td>
-                                    <td>0 - 0</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">5</th>
                                     <td>RN</td>
                                     <td>0 - 0</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">6</th>
+                                    <th scope="row">5</th>
                                     <td>OM</td>
                                     <td>0 - 0</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">7</th>
+                                    <th scope="row">6</th>
                                     <td>LOBRIN</td>
                                     <td>0 - 0</td>
                                 </tr>
-                                
-                                
                                 <tr>
-                                    <th scope="row">8</th>
+                                    <th scope="row">7</th>
                                     <td>DBES</td>
                                     <td>0 - 0</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">9</th>
+                                    <th scope="row">8</th>
                                     <td>PALOMERS</td>
                                     <td>0 - 0</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">10</th>
+                                    <th scope="row">9</th>
                                     <td>INFINITE SPORTS</td>
                                     <td>0 - 0</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">10</th>
+                                    <td>BFM<br />KITSUNE</td>
+                                    <td>0 - 1</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -660,8 +669,8 @@
                                     <td>AD<br />MELIORA</td>
                                     <td class="null-bracket"></td>
                                     <td class="defeat">0 - 1</td>
-                                    <td></td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
+                                    <td class="defeat">0 - 1</td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -684,7 +693,7 @@
                                 </tr>
                                 <tr>
                                     <td>BFM<br />KITSUNE</td>
-                                    <td></td>
+                                    <td class="defeat">0 - 1</td>
                                     <td></td>
                                     <td class="null-bracket"></td>
                                     <td></td>
@@ -697,7 +706,7 @@
                                 </tr>
                                 <tr>
                                     <td>DIVINE<br />GEEKS</td>
-                                    <td></td>
+                                    <td class="victory">1 - 0</td>
                                     <td></td>
                                     <td></td>
                                     <td class="null-bracket"></td>
@@ -835,6 +844,234 @@
             </div>
         </div>
     </div>
+
+    <hr class="hr-line" />
+
+    <div>
+        <div class="row mb-5" id="content">
+            <div class="col-lg-12">
+                <h1 id="title-2"> Matches Schedule</h1>
+            </div>
+
+            <div class="col-lg-12" class="schedule-container">
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">September 21, 2020</th>
+                            <th scope="col">September 22, 2020</th>
+                            <th scope="col">September 23, 2020</th>
+                            <th scope="col">September 24, 2020</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="game-span">GAME 1: </span>DALUZA vs SCYTHE</td>
+                            <td><span class="game-span">GAME 1: </span>GREEVILS CREED vs KAIROS</td>
+                            <td><span class="game-span">GAME 1: </span>KAIROS vs SSPH</td>
+                            <td><span class="game-span">GAME 1: </span>BLKPNK vs NEXTGEN</td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 2: </span>AD MELIORA vs MOB ESPORTS</td>
+                            <td><span class="game-span">GAME 2: </span>DIVINE GEEKS vs RN</td>
+                            <td><span class="game-span">GAME 2: </span>AD MELIORA vs RN</td>
+                            <td><span class="game-span">GAME 2: </span>RN vs LOBRIN</td>
+                        </tr>
+                        
+                        <tr>
+                            <td><span class="game-span">GAME 3: </span>DALUZA vs GREEVILS CREED</td>
+                            <td><span class="game-span">GAME 3: </span>SCYTHE vs BLKPNK</td>
+                            <td><span class="game-span">GAME 3: </span>VICINITY vs SSPH</td>
+                            <td><span class="game-span">GAME 3: </span>NEXTGEN vs AVENTUS</td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 4: </span>AD MELIORA vs BFM KITSUNE</td>
+                            <td><span class="game-span">GAME 4: </span>BFM KITSUNE vs DIVINE GEEKS</td>
+                            <td><span class="game-span">GAME 4: </span>AD MELIORA vs OM</td>
+                            <td><span class="game-span">GAME 4: </span>OM vs INFINITE SPORTS</td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 5: </span>SCYTHE vs GREEVILS CREED</td>
+                            <td><span class="game-span">GAME 5: </span>GREEVILS CREED vs SSPH</td>
+                            <td><span class="game-span">GAME 5: </span>BLKPNK vs AVENTUS</td>
+                            <td><span class="game-span">GAME 5: </span>DIVINE GEEKS vs OM</td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 6: </span>AD MELIORA vs DIVINE GEEKS</td>
+                            <td><span class="game-span">GAME 6: </span>MOB ESPORTS vs RN</td>
+                            <td><span class="game-span">GAME 6: </span>MOB ESPORTS vs LOBRIN</td>
+                            <td><span class="game-span">GAME 6: </span>RN vs DBES</td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <td><span class="game-span">GAME 7: </span>DALUZA vs VICINITY</td>
+                            <td><span class="game-span">GAME 7: </span>BLKPNK vs SIGRA SOLID</td>
+                            <td><span class="game-span">GAME 7: </span>SCYTHE vs NEXTGEN</td>
+                            <td><span class="game-span">GAME 7: </span>NEXTGEN vs SIGRA SOLID</td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 8: </span>MOB ESPORTS vs BFM KITSUNE</td>
+                            <td><span class="game-span">GAME 8: </span>BFM KITSUNE vs RN</td>
+                            <td><span class="game-span">GAME 8: </span>AD MELIORA vs LOBRIN</td>
+                            <td><span class="game-span">GAME 8: </span>DIVINE GEEKS vs LOBRIN</td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 9: </span>DALUZA vs KAIROS</td>
+                            <td><span class="game-span">GAME 9: </span>GREEVILS CREED vs BLKPNK</td>
+                            <td><span class="game-span">GAME 9: </span>VICINITY vs BLKPNK</td>
+                            <td><span class="game-span">GAME 9: </span>AVENTUS vs SIGRA SOLID</td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 10:</span> MOB ESPORTS vs DIVINE GEEKS</td>
+                            <td><span class="game-span">GAME 10:</span> MOB ESPORTS vs OM</td>
+                            <td><span class="game-span">GAME 10:</span> AD MELIORA vs DBES</td>
+                            <td><span class="game-span">GAME 10:</span> BFM KITSUNE vs DBES</td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 11:</span> GREEVILS CREED vs VICINITY</td>
+                            <td><span class="game-span">GAME 11:</span> VICINITY vs KAIROS</td>
+                            <td><span class="game-span">GAME 11:</span> GREEVILS CREED vs AVENTUS</td>
+                            <td><span class="game-span">GAME 11:</span> LOBRIN vs PALOMERS</td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 12:</span> RN vs OM</td>
+                            <td><span class="game-span">GAME 12:</span> LOBRIN vs DBES</td>
+                            <td><span class="game-span">GAME 12:</span> BFM KITSUNE vs LOBRIN</td>
+                            <td><span class="game-span">GAME 12:</span> BFM KITSUNE vs PALOMERS</td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 13:</span> SCYTHE vs KAIROS</td>
+                            <td><span class="game-span">GAME 13:</span> GREEVILS CREED vs NEXTGEN</td>
+                            <td><span class="game-span">GAME 13:</span> SCYTHE vs AVENTUS</td>
+                            <td><span class="game-span">GAME 13:</span> LOBRIN vs INFINITE SPORTS</td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 14:</span> OM vs LOBRIN</td>
+                            <td><span class="game-span">GAME 14:</span> BFM KITSUNE vs OM</td>
+                            <td><span class="game-span">GAME 14:</span> OM vs DBES</td>
+                            <td><span class="game-span">GAME 14:</span> MOB ESPORTS vs DBES</td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 15:</span> SCYTHE vs SSPH</td>
+                            <td><span class="game-span">GAME 15:</span> DALUZA vs SSPH</td>
+                            <td><span class="game-span">GAME 15:</span> DALUZA vs BLKPNK</td>
+                            <td><span class="game-span">GAME 15:</span> PALOMERS vs INFINITE SPORTS</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-lg-12" class="schedule-container">
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">September 28, 2020</th>
+                            <th scope="col">September 29, 2020</th>
+                            <th scope="col">September 30, 2020</th>
+                            <th scope="col" width="25%"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="game-span">GAME 1: </span>DALUZA vs NEXTGEN</td>
+                            <td><span class="game-span">GAME 1: </span>SSPH vs AVENTUS</td>
+                            <td><span class="game-span">PLAYOFFS</span></td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 2: </span>AD MELIORA vs PALOMERS</td>
+                            <td><span class="game-span">GAME 2: </span>OM vs PALOMERS</td>
+                            <td><span class="game-span">PLAYOFFS</span></td>
+                            <td> </td>
+                        </tr>
+                        
+                        <tr>
+                            <td><span class="game-span">GAME 3: </span>KAIROS vs BLKPNK</td>
+                            <td><span class="game-span">GAME 3: </span>KAIROS vs NEXTGEN</td>
+                            <td><span class="game-span">PLAYOFFS</span></td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 4: </span>DIVINE GEEKS VS DBES</td>
+                            <td><span class="game-span">GAME 4: </span>RN vs INFINITE SPORTS</td>
+                            <td><span class="game-span">PLAYOFFS</span></td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 5: </span>VICINITY vs NEXTGEN</td>
+                            <td><span class="game-span">GAME 5: </span>KAIROS vs AVENTUS</td>
+                            <td><span class="game-span">PLAYOFFS</span></td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 6: </span>BFM KITSUNE vs INFINITE SPORTS</td>
+                            <td><span class="game-span">GAME 6: </span>DIVINE GEEKS vs PALOMERS</td>
+                            <td><span class="game-span">PLAYOFFS</span></td>
+                            <td> </td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <td><span class="game-span">GAME 7: </span>SCYTHE vs VICINITY</td>
+                            <td><span class="game-span">GAME 7: </span>VICINITY vs SIGRA SOLID</td>
+                            <td><span class="game-span">SEMI FINALS GAME 1:</span> </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 8: </span>MOB ESPORTS vs PALOMERS</td>
+                            <td><span class="game-span">GAME 8: </span>AD MELIORA vs INFINITE SPORTS</td>
+                            <td><span class="game-span">SEMI FINALS GAME 2:</span> </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 9: </span>GREEVILS CREED vs SIGRA SOLID</td>
+                            <td><span class="game-span">GAME 9: </span>SSPH vs SIGRA SOLID</td>
+                            <td><span class="game-span">SEMI FINALS GAME 3:</span> </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 10:</span> RN vs PALOMERS</td>
+                            <td><span class="game-span">GAME 10:</span> DIVINE GEEKS vs INFINITE ESPORTS</td>
+                            <td><span class="game-span">FINALS GAME 1:</span> </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 11:</span> SSPH vs BLKPNK</td>
+                            <td><span class="game-span">GAME 11:</span> KAIROS vs SIGRA SOLID</td>
+                            <td><span class="game-span">FINALS GAME 2:</span></td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 12:</span> DALUZA vs AVENTUS</td>
+                            <td><span class="game-span">GAME 12:</span> MOB ESPORTS vs INFINITE ESPORTS</td>
+                            <td><span class="game-span">FINALS GAME 3</span></td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 13:</span> SSPH vs NEXTGEM</td>
+                            <td><span class="game-span">GAME 13:</span> SCYTHE vs SIGRA SOLID</td>
+                            <td><span class="game-span">FINALS GAME 4:</span> </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 14:</span> DBES vs PALOMERS</td>
+                            <td><span class="game-span">GAME 14:</span> DBES vs INFINITE SPORTS</td>
+                            <td><span class="game-span">FINALS GAME 5</span></td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td><span class="game-span">GAME 15:</span> VICINITY vs AVENTUS</td>
+                            <td><span class="game-span">GAME 15:</span> DALUZA vs SIGRA SOLID</td>
+                            <td> </td>
+                            <td> </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    
 
     <script src="\assets/js/jquery.min.js"></script>
     <script src="\assets/js/jquery.bracket.min.js"></script>
