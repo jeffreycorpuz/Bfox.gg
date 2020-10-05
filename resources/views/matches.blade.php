@@ -89,12 +89,18 @@
         <hr>
         <br />
         <h3 class="title-2">Ongoing:</h3>
-        <div class="parallax" data-parallax="scroll" data-image-src="images/photo-2.png">
-            <h3> <a href="/tournament/2">Budfox Tournament 2</a></h3>
+        
+        <div class="parallax" data-parallax="scroll" data-image-src="images/photo-3.jpg">
+            <h3> <a href="/tournament/3">Budfox Tournament Season 3</a></h3>
         </div>
 
         <br />
         <h3>Most Recent:</h3>
+
+        <div class="parallax" data-parallax="scroll" data-image-src="images/photo-2.png">
+            <h3> <a href="/tournament/2">Budfox Tournament Season 2</a></h3>
+        </div>
+        <br />
         <div class="parallax" data-parallax="scroll" data-image-src="images/photo-1.jpg">
             <h3> <a href="/tournament/1">Battle of the Champions Budfox Tournament</a></h3>
         </div>

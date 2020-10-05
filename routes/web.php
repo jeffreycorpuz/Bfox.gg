@@ -30,6 +30,10 @@ Route::get('/tournament/2', function () {
     return view('matchlist.budfox_tournament_2');
 });
 
+Route::get('/tournament/3', function () {
+    return view('matchlist.budfox_tournament_3');
+});
+
 Route::get('/contact', [SendEmailController::class,'index']);
 
 Route::post('/send-mail', [SendEmailController::class,'send']);
